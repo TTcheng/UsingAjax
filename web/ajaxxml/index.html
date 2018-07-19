@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People at Clearleft</title>
+    <!--
+    使用ajax传输XML格式数据
+    使用xml的优点
+        - xml 是一种通用数据格式
+        - 不必把数据强加到已经定义好的格式中，而是要为数据定义合适的标记
+        - 利用DOM可用完全掌控文档
+    使用xml的缺点
+        - 如果文档来自于服务器，就必须得保证文档含有正确的首部信息，若文档类型不正确，那么responseXML的值将是空的
+        - 当浏览器接收到很长的xml文件后，DOM解析可能会很复杂
+
+    -->
+</head>
+<script>
+    window.onload = function (ev) {
+        var aNodes = document.getElementsByTagName("a");
+        for (var i = 0; i < aNodes.length; i++) {
+            aNodes[i].onclick = function () {
+                var xhr = new XMLHttpRequest();
+                var method = "GET";
+                var url = this.href;
+
+                xhr.open(method, url);
+                xhr.send(null);
+
+                xhr.onreadystatechange = function (ev1) {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200 || xhr.status == 304) {
+                            //1、结果是xml格式，使用responseXML获取
+                            var result = xhr.responseXML;
+                            //2、xml数据需要解析在加入到<div id="details"></div>中
+                            var htmldata = generateHtmlUsingXML(result);
+                            var detailsNode = document.getElementById("details");
+                            detailsNode.innerHTML = "";
+                            detailsNode.appendChild(htmldata);
+                        }
+                    }
+                }
+                return false;
+            }
+        }
+    }
+
+    function generateHtmlUsingXML(xmlData) {
+        //解析xml
+        var name = xmlData.getElementsByTagName("name")[0].firstChild.nodeValue;
+        var website = xmlData.getElementsByTagName("website")[0].firstChild.nodeValue;
+        var email = xmlData.getElementsByTagName("email")[0].firstChild.nodeValue;
+        //构建HTML
+        var aNode = document.createElement("a");
+        aNode.appendChild(document.createTextNode(name));
+        aNode.href = "mailto:" + email;
+        var h2Node = document.createElement("h2");
+        h2Node.appendChild(aNode);
+
+        var aNode2 = document.createElement("a");
+        aNode2.appendChild(document.createTextNode(website));
+        aNode2.href = website;
+
+        var rootNode = document.createElement("div");
+        rootNode.appendChild(h2Node);
+        rootNode.appendChild(aNode2);
+
+        return rootNode;
+    }
+</script>
+<body>
+<h1>People</h1>
+<ul>
+    <li><a href="files/andy.xml">Andy</a></li>
+    <li><a href="files/jeremy.xml">Jeremy</a></li>
+    <li><a href="files/richard.xml">Richard</a></li>
+</ul>
+<div id="details"></div>
+</body>
+</html>

@@ -7,8 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17789487-b387-4db7-88f7-b3ac04bb6e44" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/postAjax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxhtml/files/andy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxhtml/files/jeremy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxhtml/files/richard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxhtml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxjson/files/andy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxjson/files/jeremy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxjson/files/richard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxjson/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxxml/files/andy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxxml/files/jeremy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxxml/files/richard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ajaxxml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,43 +33,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ajaxjson/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="9" selection-start-line="9" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="785">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postAjax.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/postAjax.jsp">
+      <file leaf-file-name="andy.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ajaxxml/files/andy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="108">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helloAjax.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/helloAjax.txt">
+      <file leaf-file-name="andy.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/ajaxjson/files/andy.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="27">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -69,6 +71,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,6 +86,19 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/postAjax.jsp" />
+        <option value="$PROJECT_DIR$/web/ajaxhtml/andy.html" />
+        <option value="$PROJECT_DIR$/web/ajaxhtml/files/andy.html" />
+        <option value="$PROJECT_DIR$/web/ajaxhtml/files/jeremy.html" />
+        <option value="$PROJECT_DIR$/web/ajaxhtml/files/richard.html" />
+        <option value="$PROJECT_DIR$/web/ajaxhtml/index.html" />
+        <option value="$PROJECT_DIR$/web/ajaxxml/files/andy.xml" />
+        <option value="$PROJECT_DIR$/web/ajaxxml/files/richard.xml" />
+        <option value="$PROJECT_DIR$/web/ajaxjson/ajaxhtml/index.html" />
+        <option value="$PROJECT_DIR$/web/ajaxjson/files/jeremy.json" />
+        <option value="$PROJECT_DIR$/web/ajaxjson/files/richard.json" />
+        <option value="$PROJECT_DIR$/web/ajaxjson/index.html" />
+        <option value="$PROJECT_DIR$/web/ajaxxml/index.html" />
+        <option value="$PROJECT_DIR$/web/ajaxjson/files/andy.json" />
       </list>
     </option>
   </component>
@@ -145,6 +161,38 @@
               <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ajaxjson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ajaxjson" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ajaxxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ajaxxml" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,6 +202,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -165,7 +214,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web\ajaxjson" />
+      <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web\ajaxhtml\files" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web\ajaxjson\files" />
+      <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web\ajaxjson" />
+      <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web\ajaxxml\files" />
+      <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web\ajaxxml" />
       <recent name="D:\WorkspaceWCC\JavaWeb\UsingAjax\web" />
     </key>
   </component>
@@ -307,12 +364,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531984087182</updated>
-      <workItem from="1531984089582" duration="2724000" />
+      <workItem from="1531984089582" duration="7396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2724000" />
+    <option name="totallyTimeSpent" value="7396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -328,8 +385,8 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3623348" />
+      <window_info anchor="bottom" id="Terminal" weight="0.34361234" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2177243" />
       <window_info id="Web" side_tool="true" />
@@ -361,20 +418,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/helloAjax.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/postAjax.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -385,10 +439,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/postAjax.jsp">
+    <entry file="file://$PROJECT_DIR$/web/ajaxhtml/files/jeremy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="81">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxhtml/files/richard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/helloAjax.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxhtml/files/andy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxxml/files/andy.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxxml/files/richard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxhtml/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxjson/ajaxhtml/files/andy.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxxml/files/jeremy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxjson/files/richard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxjson/files/jeremy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxxml/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxjson/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxxml/files/andy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ajaxjson/files/andy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People at Clearleft</title>
+    <!--
+    使用ajax传输json格式数据
+    json是JS的原生数据格式，无需解析
+    json是键值对组成的文档，其值还可以是一个json对象，值也可以是JavaScript方法
+    -->
+</head>
+<script>
+    window.onload = function (ev) {
+        var aNodes = document.getElementsByTagName("a");
+        for (var i = 0; i < aNodes.length; i++) {
+            aNodes[i].onclick = function () {
+                var xhr = new XMLHttpRequest();
+                var method = "GET";
+                var url = this.href;
+
+                xhr.open(method, url);
+                xhr.send(null);
+
+                xhr.onreadystatechange = function (ev1) {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200 || xhr.status == 304) {
+                            var jsonData = xhr.responseText;
+                            //eval()可用把字符串当做JS代码来执行
+                            var jsonObj = eval("("+jsonData+")");
+                            var htmlData = generateHtmlUsingJson(jsonObj);
+                            var detailsNode = document.getElementById("details");
+                            detailsNode.innerHTML = "";//清空
+                            detailsNode.appendChild(htmlData);
+
+                        }
+                    }
+                }
+                return false;
+            }
+        }
+    }
+    function generateHtmlUsingJson(jsonObj) {
+        //相比xml解析更容易
+        var name = jsonObj.name;
+        var website = jsonObj.website;
+        var email = jsonObj.email;
+
+        //构建HTML
+        var aNode = document.createElement("a");
+        aNode.appendChild(document.createTextNode(name));
+        aNode.href = "mailto:" + email;
+        var h2Node = document.createElement("h2");
+        h2Node.appendChild(aNode);
+
+        var aNode2 = document.createElement("a");
+        aNode2.appendChild(document.createTextNode(website));
+        aNode2.href = website;
+
+        var rootNode = document.createElement("div");
+        rootNode.appendChild(h2Node);
+        rootNode.appendChild(aNode2);
+
+        return rootNode;
+    }
+</script>
+<body>
+<h1>People</h1>
+<ul>
+    <li><a href="files/andy.json">Andy</a></li>
+    <li><a href="files/jeremy.json">Jeremy</a></li>
+    <li><a href="files/richard.json">Richard</a></li>
+</ul>
+<div id="details"></div>
+</body>
+</html>

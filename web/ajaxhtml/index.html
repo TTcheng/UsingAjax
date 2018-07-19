@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People at Clearleft</title>
+    <!--使用ajax传输HTML格式数据-->
+</head>
+<script>
+    window.onload = function (ev) {
+        var aNodes = document.getElementsByTagName("a");
+        for (var i = 0; i < aNodes.length; i++) {
+            aNodes[i].onclick = function () {
+                var xhr = new XMLHttpRequest();
+                var method = "GET";
+                var url = this.href;
+
+                xhr.open(method, url);
+                xhr.send(null);
+
+                xhr.onreadystatechange = function (ev1) {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200 || xhr.status == 304) {
+                            document.getElementById("details").innerHTML = xhr.responseText;
+                        }
+                    }
+                }
+                return false;
+            }
+        }
+    }
+</script>
+<body>
+<h1>People</h1>
+<ul>
+    <li><a href="files/andy.html">Andy</a></li>
+    <li><a href="files/jeremy.html">Jeremy</a></li>
+    <li><a href="files/richard.html">Richard</a></li>
+</ul>
+<div id="details"></div>
+</body>
+</html>
