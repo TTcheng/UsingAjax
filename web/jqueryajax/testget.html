@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testJqueryAjaxGet&Post</title>
+    <!--get和post方式的jQuery ajax-->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            var aNodes = $('ul').find('a');
+            for (var i = 0; i < aNodes.length; i++) {
+                var aNode = aNodes[i];
+                aNode.onclick = function () {
+                    var url = this.href;
+                    var args = {"time":new Date()};
+                    // $.get(url, function (data, status) {
+                    $.post(url,args, function (data, status) {
+                        // alert("data:" + data + ",status:" + status);
+                        // 处理xml的数据
+                        // var name = $(data).find('name').text();
+                        // var website = $(data).find('website').text();
+                        // var email = $(data).find('email').text();
+                        //处理json的数据
+                        var name = data.name;
+                        var website = data.website;
+                        var email = data.email;
+
+                        $("#details").empty()
+                            .append("<h2><a href='mailto:" + email + "'>" + name + "</a></h2>")
+                            .append("<a href='" + website + "'>" + website + "</a>");
+                    });
+                    return false;
+                };
+            }
+        });
+    </script>
+</head>
+<body>
+<!--xml格式-->
+<!--<ul>-->
+    <!--<li><a href="../ajaxxml/files/andy.xml">Andy</a></li>-->
+    <!--<li><a href="../ajaxxml/files/jeremy.xml">Jeremy</a></li>-->
+    <!--<li><a href="../ajaxxml/files/richard.xml">Richard</a></li>-->
+<!--</ul>-->
+<!--json格式-->
+<ul>
+    <li><a href="../ajaxjson/files/andy.json">Andy</a></li>
+    <li><a href="../ajaxjson/files/jeremy.json">Jeremy</a></li>
+    <li><a href="../ajaxjson/files/richard.json">Richard</a></li>
+</ul>
+<div id="details"></div>
+</body>
+</html>

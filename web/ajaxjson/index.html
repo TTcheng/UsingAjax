@@ -5,8 +5,18 @@
     <title>People at Clearleft</title>
     <!--
     使用ajax传输json格式数据
+    优点：
     json是JS的原生数据格式，无需解析
+    能到达xml的效果，但是更加轻巧
     json是键值对组成的文档，其值还可以是一个json对象，值也可以是JavaScript方法
+    缺点：
+    语法过于严禁
+    代码不易读
+    eval函数存在风险
+
+    小结：若应用程序不需要与其他应用程序共享时，使用HTML片段传输最简单
+          如果数据需要重用，json是不错的选择，性能和文件大小上有优势
+          当远程应用程序未知时，xml文档首选，因为xml是web服务领域通用的
     -->
 </head>
 <script>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testJqueryAjaxGet&Post</title>
+    <!--get和post方式的jQuery ajax-->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            var aNodes = $('ul').find('a');
+            for (var i = 0; i < aNodes.length; i++) {
+                var aNode = aNodes[i];
+                aNode.onclick = function () {
+                    var url = this.href;
+                    var args = {"time":new Date()};
+                    // $.get(url, function (data, status) {
+                    $.getJSON(url,args,function (data) {
+                        var name = data.name;
+                        var website = data.website;
+                        var email = data.email;
+
+                        $("#details").empty()
+                            .append("<h2><a href='mailto:" + email + "'>" + name + "</a></h2>")
+                            .append("<a href='" + website + "'>" + website + "</a>");
+                    });
+                    return false;
+                };
+            }
+        });
+    </script>
+</head>
+<body>
+<ul>
+    <li><a href="../ajaxjson/files/andy.json">Andy</a></li>
+    <li><a href="../ajaxjson/files/jeremy.json">Jeremy</a></li>
+    <li><a href="../ajaxjson/files/richard.json">Richard</a></li>
+</ul>
+<div id="details"></div>
+</body>
+</html>
