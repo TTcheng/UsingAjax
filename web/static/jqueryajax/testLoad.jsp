@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Title</title>
-    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/static/js/jquery-3.3.1.min.js"></script>
     <script>
         $(function () {
             $('a').click(function () {
@@ -23,7 +23,7 @@
     </script>
 </head>
 <body>
-<a href="../ajaxhtml/files/andy.html">andy</a>
+<a href="${pageContext.request.contextPath}/static/ajaxhtml/files/andy.html">andy</a>
 <h2 id="content"></h2>
 </body>
 </html>

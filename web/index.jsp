@@ -17,7 +17,7 @@
                 //3.创建xhr对象
                 var xhr = new XMLHttpRequest();
                 //4、准备发送数据
-                var url = "static/helloAjax.txt"+"?time="+new Date();
+                var url = "${pageContext.request.contextPath}/static/helloAjax.txt"+"?time="+new Date();
                 var method = "GET";
                 //5、xhr.open
                 xhr.open(method, url);

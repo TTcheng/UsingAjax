@@ -13,7 +13,7 @@
         window.onload = function () {
             document.getElementsByTagName("button")[0].onclick = function () {
                 var xhr = new XMLHttpRequest();
-                xhr.open("POST", "/static/helloAjax.txt");
+                xhr.open("POST", "${pageContext.request.contextPath}/static/helloAjax.txt");
                 //post方式需要在发送之前设置请求头
                 xhr.setRequestHeader("ContentType","application/x-www-form-urlencoded")
                 xhr.send("name='wcc'");

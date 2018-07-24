@@ -7,41 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17789487-b387-4db7-88f7-b3ac04bb6e44" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/formvalidate/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/formvalidate/username_available.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/formvalidate/username_unavailable.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/UsingAjax_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/UsingAjax_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchuncheng/beans/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestJackson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsingAjax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UsingAjax.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxhtml/files/andy.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxhtml/files/andy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxhtml/files/jeremy.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxhtml/files/jeremy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxhtml/files/richard.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxhtml/files/richard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxhtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxhtml/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxjson/files/andy.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxjson/files/andy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxjson/files/jeremy.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxjson/files/jeremy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxjson/files/richard.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxjson/files/richard.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxjson/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxjson/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxxml/files/andy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxxml/files/andy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxxml/files/jeremy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxxml/files/jeremy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxxml/files/richard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxxml/files/richard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ajaxxml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/ajaxxml/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/helloAjax.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/helloAjax.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jqueryajax/getJson.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/jqueryajax/getJson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jqueryajax/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/jqueryajax/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jqueryajax/testLoad.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jqueryajax/testget.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/jqueryajax/testget.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/postAjax.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/postAjax.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,8 +35,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/formvalidate/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="27">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,16 +45,90 @@
         <entry file="file://$PROJECT_DIR$/web/formvalidate/username_available.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchuncheng/beans/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-294">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestJackson.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestJackson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-410">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jackson2ObjectMapperBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/spring-web-4.3.18.RELEASE-sources.jar!/org/springframework/http/converter/json/Jackson2ObjectMapperBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="579" column="38" selection-start-line="579" selection-start-column="38" selection-end-line="579" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -88,8 +140,8 @@
       <list>
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/helloAjax.txt" />
         <option value="$PROJECT_DIR$/web/ajaxhtml/andy.html" />
         <option value="$PROJECT_DIR$/web/ajaxhtml/files/andy.html" />
@@ -118,15 +169,12 @@
         <option value="$PROJECT_DIR$/web/jqueryajax/getJson.html" />
         <option value="$PROJECT_DIR$/web/jqueryajax/testget.html" />
         <option value="$PROJECT_DIR$/web/jqueryajax/readme.txt" />
-        <option value="$PROJECT_DIR$/gitcommit.cmd" />
         <option value="$PROJECT_DIR$/gitlog.bat" />
         <option value="$PROJECT_DIR$/web/formvalidate/username_unvailable.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/UsernameController.java" />
         <option value="$PROJECT_DIR$/web/formvalidate/username_available.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/postAjax.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/LoginController.java" />
@@ -134,6 +182,13 @@
         <option value="$PROJECT_DIR$/web/formvalidate/username_available.jsp" />
         <option value="$PROJECT_DIR$/web/formvalidate/index.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gitcommit.cmd" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/postAjax.jsp" />
+        <option value="$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wangchuncheng/beans/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestJackson.java" />
       </list>
     </option>
   </component>
@@ -188,7 +243,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -200,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,39 +266,16 @@
             <path>
               <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
               <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="formvalidate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UsingAjax" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UsingAjax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -290,14 +323,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="gitcommit" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="UsingAjax" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="D:\WorkspaceWCC\JavaWeb\UsingAjax" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="gitcommit.cmd" />
-      <option name="PARAMETERS" value="" />
-    </configuration>
     <configuration name="gitlog" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="UsingAjax" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,6 +330,57 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="gitlog.bat" />
       <option name="PARAMETERS" value="" />
+    </configuration>
+    <configuration name="TestJackson.testJackson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UsingAjax" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJackson" />
+      <option name="METHOD_NAME" value="testJackson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestJackson.testJacksonMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UsingAjax" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJackson" />
+      <option name="METHOD_NAME" value="testJacksonMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestJackson.testJacksonObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UsingAjax" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJackson" />
+      <option name="METHOD_NAME" value="testJacksonObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -417,12 +493,16 @@
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Batch.gitlog" />
-      <item itemvalue="Batch.gitcommit" />
+      <item itemvalue="JUnit.TestJackson.testJackson" />
+      <item itemvalue="JUnit.TestJackson.testJacksonMap" />
+      <item itemvalue="JUnit.TestJackson.testJacksonObject" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Batch.gitlog" />
-        <item itemvalue="Batch.gitcommit" />
+        <item itemvalue="JUnit.TestJackson.testJacksonObject" />
+        <item itemvalue="JUnit.TestJackson.testJacksonMap" />
+        <item itemvalue="JUnit.TestJackson.testJackson" />
       </list>
     </recent_temporary>
   </component>
@@ -442,12 +522,29 @@
       <workItem from="1531984089582" duration="10068000" />
       <workItem from="1532048629512" duration="3367000" />
       <workItem from="1532052099622" duration="57000" />
-      <workItem from="1532052184835" duration="14657000" />
+      <workItem from="1532052184835" duration="15089000" />
+      <workItem from="1532312876756" duration="1172000" />
+      <workItem from="1532331003247" duration="604000" />
+      <workItem from="1532332524851" duration="42000" />
+      <workItem from="1532333030318" duration="330000" />
+      <workItem from="1532335571459" duration="632000" />
+      <workItem from="1532393963742" duration="1362000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestJackson_testJackson - 2018.07.24 at 09h 17m 17s.xml">
+      <configuration name="TestJackson.testJackson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJackson_testJacksonMap - 2018.07.24 at 09h 17m 48s.xml">
+      <configuration name="TestJackson.testJacksonMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJackson_testJacksonObject - 2018.07.24 at 09h 19m 55s.xml">
+      <configuration name="TestJackson.testJacksonObject" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28149000" />
+    <option name="totallyTimeSpent" value="32723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -463,14 +560,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45038167" />
-      <window_info anchor="bottom" id="Spring" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34242094" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45038167" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37949836" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -479,9 +575,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="4" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,30 +593,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/static/helloAjax.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitlog.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -625,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/ajaxhtml/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ajaxjson/ajaxhtml/files/andy.html" />
     <entry file="file://$PROJECT_DIR$/web/static/ajaxxml/files/jeremy.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -678,20 +744,6 @@
     <entry file="file://$PROJECT_DIR$/web/static/js/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/getJson.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/ajaxjson/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -706,38 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitcommit.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/testget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitlog.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -752,20 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/postAjax.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -790,16 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/formvalidate/username_unavailable.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -807,17 +807,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/formvalidate/username_available.jsp">
+    <entry file="file://$PROJECT_DIR$/gitcommit.cmd" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="219">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/formvalidate/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/postAjax.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="138">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -825,6 +826,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/testLoad.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/testget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/getJson.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/ajaxhtml/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/jqueryajax/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/formvalidate/username_available.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/formvalidate/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchuncheng/beans.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchuncheng/formvalidate/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchuncheng/beans/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-web-4.3.18.RELEASE-sources.jar!/org/springframework/http/converter/json/Jackson2ObjectMapperBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="579" column="38" selection-start-line="579" selection-start-column="38" selection-end-line="579" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestJackson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
