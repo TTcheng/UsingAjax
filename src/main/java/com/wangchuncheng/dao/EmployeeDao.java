@@ -20,7 +20,7 @@ public class EmployeeDao extends BaseDao {
     }
 
     public Employee getOne(Integer id) {
-        String sql = "SELECT * FROM location WHERE id= ? ";
+        String sql = "SELECT * FROM employee WHERE id= ? ";
         Employee one = (Employee) jdbcTemplate.queryForObject(sql, rowMapper, id);
         return one;
     }

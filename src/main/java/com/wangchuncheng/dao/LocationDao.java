@@ -17,15 +17,13 @@ public class LocationDao extends BaseDao {
 
     public List<Location> getAll() {
         String sql = "SELECT * FROM location";
-//        List<Location> locations = jdbcTemplate.queryForList(sql,Location.class);
         List<Location> locations = jdbcTemplate.query(sql, rowMapper);
-        System.out.println("locations = " + locations);
         return locations;
     }
 
     public Location getOne(Integer id) {
         String sql = "SELECT * FROM location WHERE id= ? ";
-        Location location = (Location) jdbcTemplate.queryForObject(sql, rowMapper, id);
+        Location location = jdbcTemplate.queryForObject(sql, rowMapper, id);
         return location;
     }
 
@@ -46,8 +44,4 @@ public class LocationDao extends BaseDao {
         List<Location> locations = jdbcTemplate.query(sql, rowMapper);
         return locations;
     }
-
-//    public List<Location> getLocations(){
-//        return locations;
-//    }
 }
