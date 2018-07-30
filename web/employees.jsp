@@ -13,6 +13,20 @@
     <script src="static/js/jquery.blockUI.js"></script>
     <script>
         $(function () {
+            //使用blockUI
+            $(document).ajaxStart(function () {
+                $.blockUI({
+                    message: $('#loading'),
+                    css: {
+                        top: ($(window).height - 400) / 2 + 'px',
+                        width: '400px',
+                        border: 'none',
+                        // backgroundColor:'#fff'
+                    },
+                    overlayCss: {backgroundColor: '#fff'}
+                })
+            }).ajaxStop($.unblockUI);
+
             var queryForDepartments = '/queryForDepartments';
             var queryForEmployees = '/queryForEmployees';
 
@@ -68,7 +82,7 @@
                     $('#empName').empty().append(data.name);
                     $('#empEmail').empty().append(data.email);
                     $('#empSalary').empty().append(data.salary);
-                    $('#empDetails').attr('style','');
+                    $('#empDetails').attr('style', '');
                 });
             });
         });
@@ -82,6 +96,7 @@
 </head>
 <body>
 <center>
+    <img id="loading" src="static/img/loading.gif" alt="" style="display: none">
     <br><br>
     City:
     <select id="city">
