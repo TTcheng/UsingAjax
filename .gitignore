@@ -1,5 +1,6 @@
 out/
-*.bat
 *.cmd
 target/
 lib/
+src/main/resources/datasource.properties
+.idea/
