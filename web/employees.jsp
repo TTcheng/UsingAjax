@@ -42,6 +42,7 @@
             //城市选择事件
             $("#city").change(function () {
                 $('#department option:not(:first)').remove();//清除原来的值
+                $('#employee option:not(:first)').remove();//清除原来的值
                 var thisId = $(this).val();
                 if (thisId != '') {
                     var args = {
